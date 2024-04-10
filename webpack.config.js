@@ -20,6 +20,10 @@ const config = {
         open: true,
         host: 'localhost',
     },
+    performance: {
+        maxEntrypointSize: 512000,
+        maxAssetSize: 512000
+    },
     plugins: [
         new HtmlWebpackPlugin({
             template: 'index.html',

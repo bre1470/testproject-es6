@@ -1,0 +1,10 @@
+{
+    "extends": "../tsconfig.json",
+    /* Options for `npm run build` */
+    "compilerOptions": {
+        "module": "ES6",
+        "moduleResolution": "Node",
+        "outDir": "../build",
+        "target": "ES6"
+    }
+}
